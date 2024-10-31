@@ -1,0 +1,160 @@
+/* main plugin stylesheet */
+b{
+	color:black;
+}
+.parents{
+	color:black;
+}
+h1.v2 {
+	font-size: 23px;
+	font-weight: 400;
+	margin: 0;
+	padding: 9px 0 4px;
+	line-height: 29px;
+}
+span.trash a {
+	color: red;
+}
+
+.pagination {
+	clear:both;
+	position:relative;
+	font-size:11px; /* Pagination text size */
+	line-height:13px;
+	float:right; /* Pagination float direction */
+}
+
+.pagination span, .pagination a {
+	display:block;
+	float:left;
+	margin: 2px 2px 2px 0;
+	padding:6px 9px 5px 9px;
+	text-decoration:none;
+	width:auto;
+	color:#555; /* Pagination text color */
+	background: #f7f7f7; /* Pagination non-active background color */
+	-webkit-transition: background .15s ease-in-out;
+	-moz-transition: background .15s ease-in-out;
+	-ms-transition: background .15s ease-in-out;
+	-o-transition: background .15s ease-in-out;
+	transition: background .15s ease-in-out;
+}
+
+.pagination a:hover{
+	color:#555;
+	background: #ddd; /* Pagination background on hover */
+}
+
+.pagination .current{
+	padding:6px 9px 5px 9px;
+	/* Current page background */
+	color:#555;
+}
+
+
+
+.multiselect {
+  width: 150px;
+}
+.multiselect1 {
+  width: 150px;
+}
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+#checkboxes1{
+  display: none;
+  border: 1px #dadada solid;
+}
+#checkboxes label {
+  display: block;
+}
+#checkboxes1 label {
+  display: block;
+}
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+#checkboxes1 label:hover {
+  background-color: #1e90ff;
+}
+/* .content {
+    margin-left: 185px;
+}
+ */
+ button.multiselect.dropdown-toggle.btn.btn-default {
+	width: 100% !important;
+}
+ button.multiselect1.dropdown-toggle.btn.btn-default {
+	width: 100% !important;
+}
+ div#example_length {
+	display: none;
+}
+
+.tablenav .tablenav-pages a, .tablenav-pages-navspan {
+	display: inline-block;
+	min-width: 17px;
+	border: 1px solid #ccc;
+	padding: 3px 5px 7px;
+	background: #e5e5e5;
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 400;
+	text-align: center;
+}
+.tablenav1 {
+	float: right;
+	height: 0px;
+	margin-top: 7px !important;
+	margin-bottom: 0px !important;
+	margin-right: 21px !important;
+	cursor: default;
+	color: #555;
+}
+.tablenav .tablenav-pages a {
+
+		color: black;
+}
+.facilities,.facilities1 {
+	float: left;
+	margin-right: 10px;
+	width: 150px;
+}
+.facilities .ms-options,.facilities1 .ms-options {
+	 min-height: auto!important;
+}
+#myForm  .tablenav .alignleft.actions {
+	overflow: unset;
+}
+.ms-options-wrap > button:focus, .ms-options-wrap > button {
+
+		color: black !important;
+}
+.pagination .current{
+	padding:6px 9px 5px 9px;
+	background: #ddd; /* Current page background */
+	color:black;
+}
+
+   div#ui-datepicker-div {
+	display: none;
+}
